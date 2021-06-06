@@ -64,7 +64,7 @@ $this->load->view('config/header');
                                 <td align="left" class="ra_SeachTDPaddingRight">
                                     <div class="form-group ra_form-group">
                                         <span class="input-icon">
-                                            <input type="text" name="phoneNo" id="phoneNo" class="form-control input-sm" placeholder="Phone Number"><i class="fa fa-book blue"></i>
+                                            <input type="text" name="phoneNo" id="myInput"  class="form-control input-sm" placeholder="Search Anything"><i class="fa fa-book blue"></i>
                                           </span>
                                     </div>
                                 </td>
@@ -135,7 +135,7 @@ $this->load->view('config/header');
                                             <th width="8%" class="ratheadTableBodyCenter"> Action</th>
                                         </tr>
                                     </thead>
-                                    <tbody class="raTabletbody">
+                                    <tbody class="raTabletbody" id="myTable">
                             <?php
                             $i=1;
                             //$queryList = 0;
@@ -339,4 +339,16 @@ $this->load->view('config/footer');
         }
     }
 
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myTable tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
 </script>
