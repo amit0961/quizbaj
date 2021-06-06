@@ -659,6 +659,11 @@ class apps extends CI_Controller {
 			$filedType = "checkbox";
 		}
 
+		// echo "button clicked"; exit(); 
+		// echo "<pre>
+		// 	$examID , $campID,  $questionType
+		// </pre>";
+
 
 
         require_once(APPPATH.'third_party/simplexls/src/SimpleXLS.php');
@@ -667,11 +672,18 @@ class apps extends CI_Controller {
 		$config['remove_spaces']  = TRUE;
 		$config['allowed_types'] =  'xls|txt|csv';
 		$this->load->library('upload', $config);
+			echo "<pre>
+				$config
+			</pre>"; exit();
+
 		if ($this->upload->do_upload())
 		{
+			// echo "I am here"; exit();
+
 			$dataFile = array('upload_data' => $this->upload->data());
 			$fileName = $dataFile['upload_data']['file_name'];
 			$rawname = $dataFile['upload_data']['raw_name'];
+
 
 			if ( $xlsArray = SimpleXLS::parse(UPLOAD_DIR.$fileName) ) 
 			{

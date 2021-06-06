@@ -379,6 +379,7 @@ function getRealIpAddr()
 		$data['user_id']		= $userID;
 		$data['status']		= 1;
 		$data['question_date']= date("Y-m-d", strtotime($this->input->post('question_date')));
+		// $data['question_date']= 	date('Y-m-d H:i:s');
 		$data['creationdate']		= date('Y-m-d H:i:s');
 		$data['ipaddress']		= $this->getRealIpAddr();
 
@@ -553,6 +554,7 @@ function getRealIpAddr()
                     	$dataInset['answer'] = $answer;
                     	$dataInset['user_id'] = $userID;
                     	$dataInset['status'] = 1;
+                    	$dataInset['question_date']= date("Y-m-d", strtotime($this->input->post('question_date')));
                     	$dataInset['creationdate'] = date('Y-m-d H:i:s');
                     	$dataInset['ipaddress'] = $this->getRealIpAddr();
 

@@ -4,7 +4,22 @@ $result = $info[0];
 $examsSummary = $info[0]->accessInfo->examsSummary;
 $usersInfo = $info[0]->accessInfo->usersInfo;
 
-//echo '<pre>';print_r($result);exit();
+// $totalCorrect = $examsSummary[2]->ExamName;
+// $total = 0;
+foreach($examsSummary as $data => $key) {
+    foreach($key as $k=> $value) {
+        $bruto[ $k]+=$value;
+    }
+}
+
+// $total = 0;
+// foreach($examsSummary as $array)
+// {
+//    $total += $array['questions'];
+// }
+// echo $total; exit();
+
+// echo '<pre>';print_r($bruto['questions']);exit();
 
 $this->load->view('confignew/header');
 ?>
@@ -96,6 +111,7 @@ $this->load->view('confignew/header');
                         <div class="recent_result">
                             <h4>Recent Result</h4>
                             <!-- <a class="btn btn-outline-info waves-effect waves-light" href="<?=site_url('user/all_exam_list');?>">View All</a> -->
+                              <h1> Your Today's Earn Point = <?php echo $bruto['correct'] ; ?></h1>
                             <div class="clearfix"></div>
                         </div> 
                         <div class="row">

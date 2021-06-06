@@ -107,6 +107,13 @@ $this->load->view('config/header');
                                                         </select> 
                                                     </div>
                                                 </div>
+                                                <div class="form-group">
+                                                    <label class="col-lg-4 control-label"> Date</label>
+                                                    <div class="col-lg-6">
+                                                                            
+                                                        <input required style="line-height: 1;" class="form-control" type="date" id="question_date" name="question_date" required>                              
+                                                    </div>
+                                                </div>
                                                 
                                             </div> 
                                         </div>    
@@ -133,7 +140,8 @@ $this->load->view('config/header');
                                                                 <input type="text" id="inputFile" name="inputFile" class="form-control input-sm" readonly=""> 
                                                             </div>        
                                                         </div>  
-                                                    </div>                                                   
+                                                    </div> 
+                                                     <label class="col-lg-5 control-label"> <a href="#">Download Sample</a> </label>                                                  
                                                 </div>
                                                 <hr class="wide">
                                                 <div class="form-group">
