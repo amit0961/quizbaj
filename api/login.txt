@@ -1,0 +1,84 @@
+Login API:
+Method: POST
+API URL: http://202.126.123.152:8002/login.php
+Input: Phone No (Filed Name phoneNo)
+Output: JSON Endocing String
+
+Scenario # 1
+Array
+(
+    [userInfo] => Array
+        (
+            [userID] => 30002
+            [secretKey] => 705e2dd2077bc06fbc5e2c754e75e500
+            [fullName] => NULL
+            [phoneNo] => 8801714101352
+            [age] => 0
+            [birthDate] => 0000-00-00
+            [images] => 
+            [imagesUrl] => NULL
+            [source] => 0
+            [verifyCode] => 66a3bcf3ff5ff0b3f45ad6ae143419e7
+            [signupDate] => 2019-03-06 10:10:52
+        )
+
+    [resultCode] => Array
+        (
+            [code] => 1
+            [message] => Existing user
+        )
+
+)
+
+Scenario # 2
+Array
+(
+    [userInfo] => Array
+        (
+            [userID] => 30004
+            [secretKey] => ac17d8a48126ac3ddd82489b35c0cd32
+            [fullName] => 
+            [phoneNo] => 8801714101353
+            [age] => 
+            [birthDate] => 
+            [images] => 
+            [imagesUrl] => 
+            [source] => 
+            [verifyCode] => ab63308766ce31f719abc4f2f2926551
+            [signupDate] => 
+        )
+
+    [resultCode] => Array
+        (
+            [code] => 2
+            [message] => New user
+        )
+
+)
+
+Scenario # 2
+Array
+(
+    [userInfo] => Array
+        (
+            [userID] => 
+            [secretKey] => 
+            [fullName] => 
+            [phoneNo] => NO_INPUT
+            [age] => 
+            [birthDate] => 
+            [images] => 
+            [imagesUrl] => 
+            [source] => 
+            [verifyCode] => 
+            [signupDate] => 
+        )
+
+    [resultCode] => Array
+        (
+            [code] => -1
+            [message] => Invalid Phone Number
+        )
+
+)
+

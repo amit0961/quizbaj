@@ -1,0 +1,672 @@
+For get Subject Information
+{"userID":"39","phoneNo":"8801111111111","action":"exam-name","secretKey":"d67d8ab4f4c10bf22aa353e27879133c"}
+
+Output:
+[
+    {
+        "code": "1",
+        "message": "Success",
+        "accessInfo": {
+            "examsSummary": [
+                {
+                    "examID": "1",
+                    "ExamName": "Bangla",
+                    "userExamID": "161",
+                    "questions": "0",
+                    "correct": "0",
+                    "isComplete": "0",
+                    "round": "1"
+                },
+                {
+                    "examID": "2",
+                    "ExamName": "English",
+                    "userExamID": "162",
+                    "questions": "0",
+                    "correct": "0",
+                    "isComplete": "0",
+                    "round": "1"
+                },
+                {
+                    "examID": "3",
+                    "ExamName": "Math",
+                    "userExamID": "163",
+                    "questions": "0",
+                    "correct": "0",
+                    "isComplete": "0",
+                    "round": "1"
+                },
+                {
+                    "examID": "4",
+                    "ExamName": "Computer",
+                    "userExamID": "164",
+                    "questions": "0",
+                    "correct": "0",
+                    "isComplete": "0",
+                    "round": "1"
+                },
+                {
+                    "examID": "5",
+                    "ExamName": "General Science",
+                    "userExamID": "165",
+                    "questions": "0",
+                    "correct": "0",
+                    "isComplete": "0",
+                    "round": "1"
+                },
+                {
+                    "examID": "6",
+                    "ExamName": "General Knowledge",
+                    "userExamID": "166",
+                    "questions": "0",
+                    "correct": "0",
+                    "isComplete": "1",
+                    "round": "1"
+                }
+            ]
+        }
+    }
+]
+
+*****************************************************************************************************************************************
+
+For show Exam Sheet
+{"userID":39,"phoneNo":"8801111111111","secretKey":"d67d8ab4f4c10bf22aa353e27879133c","examID":2,"userExamID":162,"round":1,"action":"exam-sheet"}
+
+OutPut
+
+[
+    {
+        "code": "1",
+        "message": "Success",
+        "accessInfo": [
+            {
+                "examID": 1,
+                "userExamID": 161,
+                "sheetID": "1631",
+                "questionsID": "10",
+                "question": "A symbol of direction: the boundaries of shape is ______________________.",
+                "questionOptions": {
+                    "1": {
+                        "filedType": "radio",
+                        "option": "Form"
+                    },
+                    "2": {
+                        "filedType": "radio",
+                        "option": "Line"
+                    },
+                    "3": {
+                        "filedType": "radio",
+                        "option": "Texture"
+                    },
+                    "4": {
+                        "filedType": "radio",
+                        "option": "Value"
+                    }
+                },
+                "answer": "2",
+                "isAnswer": 0
+            },
+            {
+                "examID": 1,
+                "userExamID": 161,
+                "sheetID": "1632",
+                "questionsID": "309",
+                "question": "The appearance of motion is called:",
+                "questionOptions": {
+                    "1": {
+                        "filedType": "radio",
+                        "option": "Calibration"
+                    },
+                    "2": {
+                        "filedType": "radio",
+                        "option": "animation"
+                    },
+                    "3": {
+                        "filedType": "radio",
+                        "option": "design"
+                    },
+                    "4": {
+                        "filedType": "radio",
+                        "option": "movement"
+                    }
+                },
+                "answer": "4",
+                "isAnswer": 0
+            },
+            {
+                "examID": 1,
+                "userExamID": 161,
+                "sheetID": "1633",
+                "questionsID": "330",
+                "question": "Martha  is using vector graphics to illustrate weather patterns. To give the graphics a customized outline she needs to adjust the:",
+                "questionOptions": {
+                    "1": {
+                        "filedType": "radio",
+                        "option": "Stroke"
+                    },
+                    "2": {
+                        "filedType": "radio",
+                        "option": "Fill"
+                    },
+                    "3": {
+                        "filedType": "radio",
+                        "option": "Swatches"
+                    },
+                    "4": {
+                        "filedType": "radio",
+                        "option": "Gradients"
+                    }
+                },
+                "answer": "1",
+                "isAnswer": 0
+            },
+            {
+                "examID": 1,
+                "userExamID": 161,
+                "sheetID": "1634",
+                "questionsID": "305",
+                "question": "What is the export format for an animation?",
+                "questionOptions": {
+                    "1": {
+                        "filedType": "radio",
+                        "option": "Gif"
+                    },
+                    "2": {
+                        "filedType": "radio",
+                        "option": "jpg"
+                    },
+                    "3": {
+                        "filedType": "radio",
+                        "option": "px"
+                    },
+                    "4": {
+                        "filedType": "radio",
+                        "option": "mov"
+                    }
+                },
+                "answer": "1",
+                "isAnswer": 0
+            },
+            {
+                "examID": 1,
+                "userExamID": 161,
+                "sheetID": "1635",
+                "questionsID": "1",
+                "question": "This refers to the way something feels, or looks as if they might feel like something.",
+                "questionOptions": {
+                    "1": {
+                        "filedType": "radio",
+                        "option": " Line"
+                    },
+                    "2": {
+                        "filedType": "radio",
+                        "option": "Space"
+                    },
+                    "3": {
+                        "filedType": "radio",
+                        "option": "Value"
+                    },
+                    "4": {
+                        "filedType": "radio",
+                        "option": "Texture"
+                    }
+                },
+                "answer": "4",
+                "isAnswer": 0
+            },
+            {
+                "examID": 1,
+                "userExamID": 161,
+                "sheetID": "1636",
+                "questionsID": "42",
+                "question": "Select a purpose of Digital Graphics",
+                "questionOptions": {
+                    "1": {
+                        "filedType": "radio",
+                        "option": "Persuade"
+                    },
+                    "2": {
+                        "filedType": "radio",
+                        "option": "Football"
+                    },
+                    "3": {
+                        "filedType": "radio",
+                        "option": "PUBG"
+                    },
+                    "4": {
+                        "filedType": "radio",
+                        "option": "Inform"
+                    }
+                },
+                "answer": "4",
+                "isAnswer": 0
+            },
+            {
+                "examID": 1,
+                "userExamID": 161,
+                "sheetID": "1637",
+                "questionsID": "44",
+                "question": "If a Digital Graphic is made of Pixels what type of Graphic is it?",
+                "questionOptions": {
+                    "1": {
+                        "filedType": "radio",
+                        "option": "Vector"
+                    },
+                    "2": {
+                        "filedType": "radio",
+                        "option": "Photoshop"
+                    },
+                    "3": {
+                        "filedType": "radio",
+                        "option": "Bitmap/Raster"
+                    },
+                    "4": {
+                        "filedType": "radio",
+                        "option": "SVG"
+                    }
+                },
+                "answer": "3",
+                "isAnswer": 0
+            },
+            {
+                "examID": 1,
+                "userExamID": 161,
+                "sheetID": "1638",
+                "questionsID": "327",
+                "question": "The common programming structure that implements \"conditional statements\"",
+                "questionOptions": {
+                    "1": {
+                        "filedType": "radio",
+                        "option": "If-Statement"
+                    },
+                    "2": {
+                        "filedType": "radio",
+                        "option": "If-Touching"
+                    },
+                    "3": {
+                        "filedType": "radio",
+                        "option": "Equal to or less than"
+                    },
+                    "4": {
+                        "filedType": "radio",
+                        "option": "Common statement"
+                    }
+                },
+                "answer": "1",
+                "isAnswer": 0
+            },
+            {
+                "examID": 1,
+                "userExamID": 161,
+                "sheetID": "1639",
+                "questionsID": "323",
+                "question": "An extra piece of information passed to a function to customize it for a specific need.",
+                "questionOptions": {
+                    "1": {
+                        "filedType": "radio",
+                        "option": "Function"
+                    },
+                    "2": {
+                        "filedType": "radio",
+                        "option": "Parameter"
+                    },
+                    "3": {
+                        "filedType": "radio",
+                        "option": "Value"
+                    },
+                    "4": {
+                        "filedType": "radio",
+                        "option": "Property"
+                    }
+                },
+                "answer": "4",
+                "isAnswer": 0
+            },
+            {
+                "examID": 1,
+                "userExamID": 161,
+                "sheetID": "1640",
+                "questionsID": "49",
+                "question": "A student would like to add a title to her magazine cover project using graphic editing software. Which image editing technique should she consider using?",
+                "questionOptions": {
+                    "1": {
+                        "filedType": "radio",
+                        "option": "aspect ratio"
+                    },
+                    "2": {
+                        "filedType": "radio",
+                        "option": "layering"
+                    },
+                    "3": {
+                        "filedType": "radio",
+                        "option": "cropping"
+                    },
+                    "4": {
+                        "filedType": "radio",
+                        "option": "rotating"
+                    }
+                },
+                "answer": "2",
+                "isAnswer": 0
+            }
+        ]
+    }
+]
+
+*****************************************************************************************************
+
+{"userID":39,"phoneNo":"8801111111111","secretKey":"d67d8ab4f4c10bf22aa353e27879133c","examID":2,"userExamID":162,"sheetID":1645,"answer":1,"isCorect":1,"isComplete":1,"action":"submit-answer"}
+
+Output:
+[
+    {
+        "code": "1",
+        "message": "Success",
+        "submitedAnswer": 1,
+        "accessInfo": {
+            "userExamID": 162,
+            "totalPoints": "50",
+            "examResult": {
+                "points": "40",
+                "questions": "0",
+                "correct": "4",
+                "wrong": "0",
+                "startTime": "2019-04-19 00:18:53",
+                "endTime": "2019-04-19 00:33:27"
+            }
+        }
+    }
+]
+
+OR
+
+[
+    {
+        "code": "1",
+        "message": "Success",
+        "submitedAnswer": 1,
+        "accessInfo": "NULL"
+    }
+]
+
+*************************************************************
+
+{"userID":39,"phoneNo":"8801111111111","secretKey":"d67d8ab4f4c10bf22aa353e27879133c","userExamID":162,"action":"resent-exam-result"}
+
+Output
+[
+    {
+        "code": "1",
+        "message": "Success",
+        "accessInfo": [
+            {
+                "userExamID": 162,
+                "sheetID": "1641",
+                "question": "Vector images are best used for",
+                "questionOptions": {
+                    "1": {
+                        "filedType": "radio",
+                        "option": "photos"
+                    },
+                    "2": {
+                        "filedType": "radio",
+                        "option": "illustrations"
+                    },
+                    "3": {
+                        "filedType": "radio",
+                        "option": "logos"
+                    },
+                    "4": {
+                        "filedType": "radio",
+                        "option": "typography"
+                    }
+                },
+                "answer": "3",
+                "submitAnswer": "1",
+                "isAnswer": "1"
+            },
+            {
+                "userExamID": 162,
+                "sheetID": "1642",
+                "question": "379.\tVectors are made up of",
+                "questionOptions": {
+                    "1": {
+                        "filedType": "radio",
+                        "option": "Pixels"
+                    },
+                    "2": {
+                        "filedType": "radio",
+                        "option": "blending tools"
+                    },
+                    "3": {
+                        "filedType": "radio",
+                        "option": "mathematical equations"
+                    },
+                    "4": {
+                        "filedType": "radio",
+                        "option": "resolution"
+                    }
+                },
+                "answer": "3",
+                "submitAnswer": "1",
+                "isAnswer": "1"
+            },
+            {
+                "userExamID": 162,
+                "sheetID": "1643",
+                "question": "Orange is the complementary color to _________.",
+                "questionOptions": {
+                    "1": {
+                        "filedType": "radio",
+                        "option": "Red"
+                    },
+                    "2": {
+                        "filedType": "radio",
+                        "option": "Green"
+                    },
+                    "3": {
+                        "filedType": "radio",
+                        "option": "Blue"
+                    },
+                    "4": {
+                        "filedType": "radio",
+                        "option": "Violet"
+                    }
+                },
+                "answer": "3",
+                "submitAnswer": "1",
+                "isAnswer": "1"
+            },
+            {
+                "userExamID": 162,
+                "sheetID": "1644",
+                "question": "If a Digital Graphic is made of lines, shapes and dots, what type of image is it?",
+                "questionOptions": {
+                    "1": {
+                        "filedType": "radio",
+                        "option": "Bitmap/Raster"
+                    },
+                    "2": {
+                        "filedType": "radio",
+                        "option": "JPEG"
+                    },
+                    "3": {
+                        "filedType": "radio",
+                        "option": "PowerPoint"
+                    },
+                    "4": {
+                        "filedType": "radio",
+                        "option": "Vector"
+                    }
+                },
+                "answer": "4",
+                "submitAnswer": "1",
+                "isAnswer": "1"
+            },
+            {
+                "userExamID": 162,
+                "sheetID": "1645",
+                "question": "A single value of either True or False",
+                "questionOptions": {
+                    "1": {
+                        "filedType": "radio",
+                        "option": "Conditiona"
+                    },
+                    "2": {
+                        "filedType": "radio",
+                        "option": "Variation"
+                    },
+                    "3": {
+                        "filedType": "radio",
+                        "option": "Boolean"
+                    },
+                    "4": {
+                        "filedType": "radio",
+                        "option": "The answer is Boolean kids"
+                    }
+                },
+                "answer": "3",
+                "submitAnswer": "1",
+                "isAnswer": "1"
+            },
+            {
+                "userExamID": 162,
+                "sheetID": "1646",
+                "question": "What is a tint of a color?",
+                "questionOptions": {
+                    "1": {
+                        "filedType": "radio",
+                        "option": "A color + black"
+                    },
+                    "2": {
+                        "filedType": "radio",
+                        "option": "A color + white"
+                    },
+                    "3": {
+                        "filedType": "radio",
+                        "option": "A color + grey"
+                    },
+                    "4": {
+                        "filedType": "radio",
+                        "option": "A color + its complement"
+                    }
+                },
+                "answer": "2",
+                "submitAnswer": "1",
+                "isAnswer": "1"
+            },
+            {
+                "userExamID": 162,
+                "sheetID": "1647",
+                "question": "Finding and fixing problems in a program",
+                "questionOptions": {
+                    "1": {
+                        "filedType": "radio",
+                        "option": "Persistence"
+                    },
+                    "2": {
+                        "filedType": "radio",
+                        "option": "Conditioning"
+                    },
+                    "3": {
+                        "filedType": "radio",
+                        "option": "De-bugging"
+                    },
+                    "4": {
+                        "filedType": "radio",
+                        "option": "Picking"
+                    }
+                },
+                "answer": "3",
+                "submitAnswer": "-1",
+                "isAnswer": 0
+            },
+            {
+                "userExamID": 162,
+                "sheetID": "1648",
+                "question": "Refers to the number of colors per pixel that can be displayed in an image and affects image quality and file size",
+                "questionOptions": {
+                    "1": {
+                        "filedType": "radio",
+                        "option": "Compression"
+                    },
+                    "2": {
+                        "filedType": "radio",
+                        "option": "Transparency "
+                    },
+                    "3": {
+                        "filedType": "radio",
+                        "option": "Portability"
+                    },
+                    "4": {
+                        "filedType": "radio",
+                        "option": "Color Depth"
+                    }
+                },
+                "answer": "4",
+                "submitAnswer": "-1",
+                "isAnswer": 0
+            },
+            {
+                "userExamID": 162,
+                "sheetID": "1649",
+                "question": "An example of a Vector",
+                "questionOptions": {
+                    "1": {
+                        "filedType": "radio",
+                        "option": "JPG"
+                    },
+                    "2": {
+                        "filedType": "radio",
+                        "option": "TIFF"
+                    },
+                    "3": {
+                        "filedType": "radio",
+                        "option": "PNG"
+                    },
+                    "4": {
+                        "filedType": "radio",
+                        "option": "SVG"
+                    }
+                },
+                "answer": "4",
+                "submitAnswer": "-1",
+                "isAnswer": 0
+            },
+            {
+                "userExamID": 162,
+                "sheetID": "1650",
+                "question": null,
+                "questionOptions": {
+                    "1": {
+                        "filedType": "radio",
+                        "option": "Resolution"
+                    },
+                    "2": {
+                        "filedType": "radio",
+                        "option": "Compression"
+                    },
+                    "3": {
+                        "filedType": "radio",
+                        "option": "Transparency"
+                    },
+                    "4": {
+                        "filedType": "radio",
+                        "option": "layers"
+                    }
+                },
+                "answer": "1",
+                "submitAnswer": "-1",
+                "isAnswer": 0
+            }
+        ]
+    }
+]
+
+**************************************************************************************************
+
+
+
+
+
+

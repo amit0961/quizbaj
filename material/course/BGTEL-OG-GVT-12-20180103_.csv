@@ -1,0 +1,2 @@
+SL,Invoice Month,IOS Name,Dest. code,Country Name,Service,No of Calls,Bill Duration (Min),Actual Duration (Min),X Rate,Y BDT Rate,Y USD Rate,Total X Charge BDT,Total Y Charge BDT,	Z Amount (Z=X-Y),Invoice Amount (Z*15%+Y)* Min
+1,Dec-2017,Global Voice Ltd,7915,RUSSIA MOBILE,IP Call,1,0.75,0.63,10.0000,5.9072,0.0710,7.5000,4.4304,3.0696,4.8908

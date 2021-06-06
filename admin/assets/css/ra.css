@@ -1,0 +1,198 @@
+.titleMenuRight
+{
+	    text-align: right;
+}
+
+.ra_submenu
+{
+	padding: 1px;
+}
+
+.ra_form-group {
+    margin-bottom: 0px;
+}
+
+.ra_SeachTDPaddingRight
+{
+	padding-right: 10px;
+}
+
+.ra_SeachTDPaddingRightIP
+{
+	padding-right: 30px;
+}
+
+.ra_inputFieldBorder
+{
+	background-image: url(../img/form_bg.jpg);
+}
+
+.ra_inputFiledHeight
+{
+	height:30px;
+}
+
+.ra_ButtonWeight
+{
+	width: 30px;
+}
+
+.ra_bodyHeaderCaption
+{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.ra_bodyHeaderTitleIcon
+{
+	font-size: 13px;
+}
+
+
+.ra_bodyHeader
+{
+	padding-top:10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+
+
+.ra_FormBody
+{
+	padding-top:10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+
+
+.ra_widgetMarginBody
+{
+	margin: 0 0 15px 0;
+}
+
+.ra_widgetBodyTableData
+{
+	padding: 1px;
+	border-top: 0px solid #FFFFFF;
+}
+
+
+.table thead.bordered-raTableThead>tr>th 
+{
+    border-bottom: 1px solid #d5d5d5;
+    background-image: url(../img/grid3-hrow.gif);
+    font-family: 'Open Sans','Segoe UI';
+    font-size: 13px;
+    color: #444;
+    padding:5px;
+}
+
+.ratheadTableBodyCenter
+{
+	text-align: center;
+}
+
+.raTabletbody
+{
+    font-family: 'Open Sans','Segoe UI';
+    font-size: 13px;
+}
+
+
+.raTableBodyNR
+{
+	font-size: 14px;
+	text-align: center;
+
+}
+
+
+.raCheckLevelPading
+{
+	padding-left: 5px;
+}
+
+
+
+
+div.pagination {
+	padding:3px;
+	margin:3px;
+	text-align:center;
+}
+
+div.pagination a {
+	padding: 2px 5px 2px 5px;
+	margin-right: 2px;
+	border: 1px solid #cccccc;
+
+	text-decoration: none;
+	color: #000000;
+}
+div.pagination a:hover, div.pagination a:active {
+	border:1px solid #cccccc;
+	color: #FFFFFF;
+	background-color: #333333;
+}
+div.pagination span.current {
+	padding: 2px 5px 2px 5px;
+	margin-right: 2px;
+	border: 1px solid #cccccc;
+	font-weight: bold;
+	background-color: #333333;
+	color: #FFF;
+}
+div.pagination span.disabled {
+	padding: 2px 5px 2px 5px;
+	margin-right: 2px;
+	border: 0px solid #f3f3f3;
+	color: #000000;
+}
+
+
+
+
+
+
+/* SEARCH BOX --------------------------------------------------------------- */
+.search_box {
+	border:0;
+	border-top:1px solid #DEE2E5;
+	border-bottom:1px solid #DEE2E5;
+	padding-bottom:4px;
+}
+.search_box legend {
+	padding-left:18px;
+	line-height:15px;
+	color:#505256;
+	background:url('../images/search.gif') no-repeat;
+}
+.search_box table {
+	width:100%;
+	margin:0;
+	_margin-top:3px;
+	border:0;
+	padding:0;
+	
+	border-collapse:collapse;
+}
+.search_box table td {
+	padding:3px;
+	margin:0;
+}
+
+.search_box.top {
+    margin: 0;
+    margin-bottom: 15px;
+    margin-top: -5px;
+    border-top: 0;
+    padding-top: 0;
+    z-index: 0;
+}
+.search_box.top table {
+    margin: 0;
+}
+
+
